@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dra. Caroline Raszl | Advogada em Sorocaba/SP</title>
+<meta name="description" content="Advogada em Sorocaba/SP — Direito do Consumidor, Família e Sucessões e Cível. Atendimento humano, próximo e descomplicado. Fale agora pelo WhatsApp.">
+<meta property="og:title" content="Dra. Caroline Raszl | Advogada em Sorocaba/SP">
+<meta property="og:description" content="Direito descomplicado e acessível. Consumidor, Família e Sucessões e Cível. Nota 5,0 no Google.">
+<meta property="og:image" content="https://caroline-raszl-advocacia.vercel.app/foto-caroline.webp">
+<meta name="theme-color" content="#1B2340">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"LegalService","name":"Dra. Caroline Raszl | Advogados em Sorocaba/SP","telephone":"+55 15 99808-7810","areaServed":"Sorocaba/SP","geo":{"@type":"GeoCoordinates","latitude":-23.4700726,"longitude":-47.4366448},"aggregateRating":{"@type":"AggregateRating","ratingValue":"5.0","reviewCount":"14"}}
+</script>
+<style>
+:root{
+  --ink:#1B2340;        /* azul-marinho profundo */
+  --ink-2:#2B3560;
+  --gold:#B8925A;       /* dourado champanhe */
+  --gold-soft:#E9DCC6;
+  --cream:#FAF7F2;
+  --white:#FFFFFF;
+  --text:#2A2E3B;
+  --muted:#6B7080;
+  --line:#ECE6DC;
+  --wa:#25D366;
+  --wa-dark:#1EB257;
+  --radius:20px;
+  --shadow:0 10px 30px -12px rgba(27,35,64,.18);
+  --shadow-lg:0 24px 60px -20px rgba(27,35,64,.28);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{font-family:'Manrope',system-ui,sans-serif;color:var(--text);background:var(--white);line-height:1.65;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+h1,h2,h3{font-family:'Fraunces',Georgia,serif;color:var(--ink);font-weight:500;line-height:1.15;letter-spacing:-.01em}
+.container{width:100%;max-width:1160px;margin:0 auto;padding:0 22px}
+section{padding:84px 0}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:.78rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+.eyebrow::before{content:"";width:22px;height:1.5px;background:var(--gold)}
+.section-head{max-width:640px;margin-bottom:44px}
+.section-head h2{font-size:clamp(1.9rem,5vw,2.7rem);margin:12px 0 14px}
+.section-head p{color:var(--muted);font-size:1.05rem}
+.center{text-align:center;margin-left:auto;margin-right:auto}
+.center .eyebrow::after{content:"";width:22px;height:1.5px;background:var(--gold)}
+
+/* Botões */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:15px 26px;border-radius:999px;font-weight:700;font-size:1rem;transition:transform .25s,box-shadow .25s,background .25s;cursor:pointer;border:0;white-space:nowrap}
+.btn svg{width:20px;height:20px;flex-shrink:0}
+.btn-wa{background:var(--wa);color:#fff;box-shadow:0 10px 24px -8px rgba(37,211,102,.55)}
+.btn-wa:hover{background:var(--wa-dark);transform:translateY(-2px)}
+.btn-ghost{background:transparent;color:var(--ink);border:1.5px solid var(--ink)}
+.btn-ghost:hover{background:var(--ink);color:#fff;transform:translateY(-2px)}
+.btn-sm{padding:10px 18px;font-size:.9rem}
+
+/* Topo */
+header{position:fixed;inset:0 0 auto 0;z-index:50;transition:background .3s,box-shadow .3s}
+header.scrolled{background:rgba(255,255,255,.92);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);box-shadow:0 1px 0 var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:72px}
+.logo{display:flex;align-items:center;gap:11px}
+.logo-mark{width:42px;height:42px;border-radius:12px;background:var(--ink);color:var(--gold-soft);display:grid;place-items:center;font-family:'Fraunces',serif;font-size:1.05rem;letter-spacing:.04em}
+.logo-text strong{display:block;font-family:'Fraunces',serif;font-weight:500;color:var(--ink);font-size:1.08rem;line-height:1.1}
+.logo-text span{font-size:.72rem;color:var(--muted);letter-spacing:.08em;text-transform:uppercase}
+.menu{display:none;gap:30px;font-weight:600;font-size:.94rem;color:var(--ink)}
+.menu a{position:relative;padding:4px 0}
+.menu a::after{content:"";position:absolute;left:0;bottom:-2px;width:0;height:1.5px;background:var(--gold);transition:width .3s}
+.menu a:hover::after{width:100%}
+.nav-cta{display:none}
+.burger{width:44px;height:44px;border-radius:12px;border:1px solid var(--line);background:#fff;display:grid;place-items:center;cursor:pointer}
+.burger span,.burger span::before,.burger span::after{display:block;width:18px;height:2px;background:var(--ink);border-radius:2px;position:relative;transition:.3s}
+.burger span::before,.burger span::after{content:"";position:absolute;left:0}
+.burger span::before{top:-6px}.burger span::after{top:6px}
+.menu-open .burger span{background:transparent}
+.menu-open .burger span::before{top:0;transform:rotate(45deg)}
+.menu-open .burger span::after{top:0;transform:rotate(-45deg)}
+.mobile-menu{position:fixed;inset:72px 0 auto 0;background:#fff;padding:18px 22px 26px;display:flex;flex-direction:column;gap:6px;box-shadow:var(--shadow-lg);transform:translateY(-12px);opacity:0;pointer-events:none;transition:.3s;z-index:49}
+.mobile-menu a{padding:13px 4px;border-bottom:1px solid var(--line);font-weight:600;color:var(--ink)}
+.mobile-menu .btn{margin-top:14px}
+.menu-open .mobile-menu{transform:none;opacity:1;pointer-events:auto}
+
+/* Hero */
+.hero{padding:116px 0 70px;background:radial-gradient(1200px 500px at 85% 0%,#F3ECE0 0%,transparent 60%),var(--cream);position:relative;overflow:hidden}
+.hero-grid{display:grid;gap:44px;align-items:center}
+.hero-badge{display:inline-flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--line);border-radius:999px;padding:7px 14px 7px 9px;font-size:.84rem;font-weight:600;color:var(--ink);box-shadow:var(--shadow)}
+.hero-badge .stars{color:#F5B301;letter-spacing:1px}
+.hero h1{font-size:clamp(2.25rem,8vw,3.7rem);margin:20px 0 18px}
+.hero h1 em{font-style:italic;color:var(--gold)}
+.hero p.lead{font-size:1.1rem;color:var(--muted);max-width:520px}
+.hero-ctas{display:flex;flex-direction:column;gap:12px;margin-top:30px}
+.hero-note{display:flex;align-items:center;gap:8px;margin-top:18px;font-size:.88rem;color:var(--muted)}
+.hero-note svg{width:16px;height:16px;color:var(--gold)}
+.hero-photo{position:relative;max-width:440px;margin:0 auto;width:100%}
+.hero-photo .frame{border-radius:28px;overflow:hidden;aspect-ratio:4/5;box-shadow:var(--shadow-lg);background:var(--gold-soft)}
+.hero-photo .frame img{width:100%;height:100%;object-fit:cover;object-position:center top}
+.hero-photo::before{content:"";position:absolute;inset:-14px 14px 14px -14px;border:1.5px solid var(--gold);border-radius:30px;z-index:-1;opacity:.55}
+.float-card{position:absolute;background:#fff;border-radius:16px;padding:12px 16px;box-shadow:var(--shadow-lg);display:flex;align-items:center;gap:11px;font-size:.84rem}
+.float-card b{display:block;color:var(--ink);font-size:1rem}
+.float-card .ic{width:38px;height:38px;border-radius:11px;background:var(--cream);display:grid;place-items:center;color:var(--gold)}
+.float-card .ic svg{width:20px;height:20px}
+.fc-1{left:10px;bottom:22px}
+.fc-2{right:10px;top:20px;display:none}
+
+/* Faixa de confiança */
+.trust{padding:0;margin-top:-34px;position:relative;z-index:2}
+.trust-box{background:var(--ink);color:#fff;border-radius:24px;padding:28px 22px;display:grid;grid-template-columns:repeat(2,1fr);gap:22px 12px;box-shadow:var(--shadow-lg)}
+.trust-item{text-align:center}
+.trust-item .num{font-family:'Fraunces',serif;font-size:clamp(1.8rem,6vw,2.4rem);color:var(--gold-soft);line-height:1}
+.trust-item .lbl{font-size:.82rem;color:#C9CDDB;margin-top:6px}
+.trust-item .stars{color:#F5B301;font-size:.9rem;letter-spacing:2px;margin-top:4px}
+
+/* Serviços */
+.cards{display:grid;gap:18px}
+.card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:28px 24px;transition:transform .3s,box-shadow .3s,border-color .3s}
+.card:hover{transform:translateY(-6px);box-shadow:var(--shadow-lg);border-color:transparent}
+.card .icon{width:54px;height:54px;border-radius:16px;background:var(--cream);color:var(--gold);display:grid;place-items:center;margin-bottom:18px;transition:.3s}
+.card:hover .icon{background:var(--ink);color:var(--gold-soft)}
+.card .icon svg{width:26px;height:26px}
+.card h3{font-size:1.28rem;margin-bottom:8px}
+.card p{color:var(--muted);font-size:.96rem}
+
+/* Áreas */
+.areas{background:var(--cream)}
+.areas-grid{display:grid;gap:16px}
+.area{position:relative;border-radius:var(--radius);overflow:hidden;background:#fff;box-shadow:var(--shadow);display:flex;flex-direction:column}
+.area-img{height:170px;overflow:hidden}
+.area-img img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.area:hover .area-img img{transform:scale(1.06)}
+.area-body{padding:22px 22px 24px}
+.area-body h3{font-size:1.3rem;margin-bottom:8px}
+.area-body p{color:var(--muted);font-size:.95rem;margin-bottom:14px}
+.area-body ul{list-style:none;display:flex;flex-wrap:wrap;gap:7px}
+.area-body li{font-size:.78rem;font-weight:600;color:var(--ink);background:var(--cream);border-radius:999px;padding:5px 11px}
+
+/* Sobre */
+.about-grid{display:grid;gap:40px;align-items:center}
+.about-photo{position:relative;max-width:420px;margin:0 auto;width:100%}
+.about-photo .frame{border-radius:28px;overflow:hidden;aspect-ratio:1/1.1;box-shadow:var(--shadow-lg);background:var(--gold-soft)}
+.about-photo .frame img{width:100%;height:100%;object-fit:cover;object-position:center top}
+.oab-tag{position:absolute;right:-6px;bottom:22px;background:var(--ink);color:#fff;border-radius:16px;padding:14px 18px;box-shadow:var(--shadow-lg)}
+.oab-tag small{display:block;font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-soft)}
+.oab-tag b{font-family:'Fraunces',serif;font-weight:500;font-size:1.2rem}
+.about h2{font-size:clamp(1.9rem,5vw,2.6rem);margin:12px 0 18px}
+.about p{color:var(--muted);margin-bottom:14px}
+.about blockquote{border-left:3px solid var(--gold);padding:6px 0 6px 18px;margin:22px 0;font-family:'Fraunces',serif;font-style:italic;font-size:1.2rem;color:var(--ink)}
+.checks{list-style:none;display:grid;gap:10px;margin:20px 0 28px}
+.checks li{display:flex;gap:10px;align-items:flex-start;font-weight:500}
+.checks svg{width:20px;height:20px;flex-shrink:0;color:var(--gold);margin-top:3px}
+
+/* Depoimentos */
+.reviews{background:var(--cream)}
+.g-summary{display:flex;align-items:center;gap:16px;background:#fff;border-radius:18px;padding:16px 20px;box-shadow:var(--shadow);width:fit-content;margin:0 auto 36px}
+.g-summary .g-logo{width:34px;height:34px}
+.g-summary b{font-size:1.6rem;font-family:'Fraunces',serif;color:var(--ink)}
+.g-summary .stars{color:#F5B301;letter-spacing:2px}
+.g-summary small{display:block;color:var(--muted);font-size:.82rem}
+.review-grid{display:grid;gap:18px}
+.review{background:#fff;border-radius:var(--radius);padding:24px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:12px}
+.review-top{display:flex;align-items:center;gap:12px}
+.avatar{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;color:#fff;font-weight:700;font-size:1.05rem}
+.review-top b{display:block;color:var(--ink);font-size:.98rem}
+.review-top small{color:var(--muted);font-size:.8rem}
+.review-top .g-mini{margin-left:auto;width:20px;height:20px}
+.review .stars{color:#F5B301;letter-spacing:2px}
+.review p{color:var(--text);font-size:.97rem}
+.reviews-link{text-align:center;margin-top:30px}
+.reviews-link a{font-weight:700;color:var(--ink);border-bottom:1.5px solid var(--gold);padding-bottom:2px}
+
+/* FAQ */
+.faq-list{max-width:780px;margin:0 auto;display:grid;gap:12px}
+.faq-item{background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;transition:box-shadow .3s}
+.faq-item.open{box-shadow:var(--shadow)}
+.faq-q{width:100%;background:none;border:0;text-align:left;padding:20px 22px;display:flex;justify-content:space-between;align-items:center;gap:16px;font:600 1.02rem 'Manrope',sans-serif;color:var(--ink);cursor:pointer}
+.faq-q .plus{width:30px;height:30px;border-radius:50%;background:var(--cream);display:grid;place-items:center;flex-shrink:0;transition:transform .3s,background .3s;color:var(--gold);font-size:1.3rem;line-height:1}
+.faq-item.open .plus{transform:rotate(45deg);background:var(--ink);color:#fff}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .4s ease}
+.faq-a p{padding:0 22px 22px;color:var(--muted)}
+
+/* Localização */
+.loc-grid{display:grid;gap:22px}
+.map{border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);min-height:320px;background:var(--cream)}
+.map iframe{width:100%;height:100%;min-height:320px;border:0;display:block}
+.info{background:var(--ink);color:#fff;border-radius:var(--radius);padding:30px 26px;display:grid;gap:22px}
+.info h3{color:#fff;font-size:1.5rem}
+.info-row{display:flex;gap:14px}
+.info-row .ic{width:44px;height:44px;border-radius:12px;background:rgba(255,255,255,.08);display:grid;place-items:center;color:var(--gold-soft);flex-shrink:0}
+.info-row .ic svg{width:20px;height:20px}
+.info-row small{display:block;color:#AEB3C6;font-size:.78rem;text-transform:uppercase;letter-spacing:.1em}
+.info-row b{font-weight:600}
+.info .btn{width:100%}
+
+/* CTA final */
+.cta{padding:30px 0 90px}
+.cta-box{position:relative;overflow:hidden;border-radius:30px;padding:56px 26px;text-align:center;background:linear-gradient(135deg,var(--ink) 0%,var(--ink-2) 100%);color:#fff}
+.cta-box::before,.cta-box::after{content:"";position:absolute;border-radius:50%;border:1.5px solid rgba(184,146,90,.35)}
+.cta-box::before{width:340px;height:340px;right:-120px;top:-150px}
+.cta-box::after{width:260px;height:260px;left:-110px;bottom:-140px}
+.cta-box h2{color:#fff;font-size:clamp(1.9rem,6vw,2.8rem);margin:12px auto 14px;max-width:640px;position:relative}
+.cta-box p{color:#C9CDDB;max-width:520px;margin:0 auto 30px;position:relative}
+.cta-box .btn{font-size:1.1rem;padding:19px 34px;position:relative}
+.cta-box .eyebrow{color:var(--gold-soft)}
+.cta-box .eyebrow::before,.cta-box .eyebrow::after{background:var(--gold-soft)}
+
+/* Rodapé */
+footer{background:#121830;color:#AEB3C6;padding:56px 0 28px;font-size:.92rem}
+.foot-grid{display:grid;gap:32px;margin-bottom:36px}
+footer .logo-text strong{color:#fff}
+footer .logo-mark{background:var(--gold);color:var(--ink)}
+footer h4{color:#fff;font-family:'Manrope',sans-serif;font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;margin-bottom:14px}
+footer ul{list-style:none;display:grid;gap:9px}
+footer a:hover{color:var(--gold-soft)}
+.socials{display:flex;gap:10px;margin-top:18px}
+.socials a{width:42px;height:42px;border-radius:12px;background:rgba(255,255,255,.07);display:grid;place-items:center;color:#fff;transition:.3s}
+.socials a:hover{background:var(--gold);color:var(--ink)}
+.socials svg{width:19px;height:19px}
+.foot-bottom{border-top:1px solid rgba(255,255,255,.08);padding-top:22px;display:flex;flex-direction:column;gap:10px;text-align:center;font-size:.84rem}
+.foot-bottom a{color:var(--gold-soft);font-weight:700}
+
+/* WhatsApp flutuante */
+.wa-float{position:fixed;right:18px;bottom:18px;z-index:60;width:60px;height:60px;border-radius:50%;background:var(--wa);display:grid;place-items:center;box-shadow:0 12px 28px -6px rgba(37,211,102,.6);transition:transform .3s}
+.wa-float:hover{transform:scale(1.08)}
+.wa-float svg{width:32px;height:32px;color:#fff}
+.wa-float::before{content:"";position:absolute;inset:0;border-radius:50%;background:var(--wa);animation:pulse 2.2s infinite;z-index:-1}
+@keyframes pulse{0%{transform:scale(1);opacity:.6}100%{transform:scale(1.7);opacity:0}}
+
+/* Animações ao rolar */
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .8s ease,transform .8s ease}
+.reveal.in{opacity:1;transform:none}
+.d1{transition-delay:.1s}.d2{transition-delay:.2s}.d3{transition-delay:.3s}
+@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}.wa-float::before{animation:none}html{scroll-behavior:auto}}
+
+/* Tablet */
+@media (min-width:640px){
+  .hero-ctas{flex-direction:row}
+  .fc-2{display:flex}
+  .trust-box{grid-template-columns:repeat(4,1fr);padding:34px 30px}
+  .cards,.areas-grid,.review-grid{grid-template-columns:repeat(2,1fr)}
+  .foot-grid{grid-template-columns:repeat(2,1fr)}
+  .foot-bottom{flex-direction:row;justify-content:space-between;text-align:left}
+}
+/* Desktop */
+@media (min-width:960px){
+  section{padding:110px 0}
+  .menu,.nav-cta{display:flex}
+  .burger,.mobile-menu{display:none}
+  .hero{padding:150px 0 110px}
+  .hero-grid{grid-template-columns:1.1fr .9fr;gap:60px}
+  .hero-photo{margin:0 0 0 auto}
+  .fc-1{left:-40px;bottom:34px}.fc-2{right:-30px;top:28px}
+  .trust-box{padding:38px 40px}
+  .trust-item+.trust-item{border-left:1px solid rgba(255,255,255,.1)}
+  .cards{grid-template-columns:repeat(3,1fr)}
+  .areas-grid{grid-template-columns:repeat(4,1fr)}
+  .about-grid{grid-template-columns:.9fr 1.1fr;gap:70px}
+  .review-grid{grid-template-columns:repeat(3,1fr)}
+  .loc-grid{grid-template-columns:1.5fr 1fr}
+  .cta-box{padding:80px 40px}
+  .foot-grid{grid-template-columns:1.4fr 1fr 1fr 1fr}
+}
+</style>
+</head>
+<body>
+
+<!-- 1. TOPO -->
+<header id="top">
+  <div class="container nav">
+    <a href="#inicio" class="logo" aria-label="Dra. Caroline Raszl — início">
+      <div class="logo-mark">CR</div>
+      <div class="logo-text"><strong>Caroline Raszl</strong><span>Advocacia · Sorocaba</span></div>
+    </a>
+    <nav class="menu" aria-label="Menu principal">
+      <a href="#servicos">Serviços</a>
+      <a href="#areas">Áreas</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#depoimentos">Avaliações</a>
+      <a href="#faq">Dúvidas</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <a class="btn btn-wa btn-sm nav-cta wa-link" href="#" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="currentColor"><use href="#i-wa"/></svg>Fale no WhatsApp
+    </a>
+    <button class="burger" aria-label="Abrir menu" aria-expanded="false"><span></span></button>
+  </div>
+  <div class="mobile-menu">
+    <a href="#servicos">Serviços</a>
+    <a href="#areas">Áreas de atuação</a>
+    <a href="#sobre">Sobre a advogada</a>
+    <a href="#depoimentos">Avaliações</a>
+    <a href="#faq">Perguntas frequentes</a>
+    <a href="#contato">Localização</a>
+    <a class="btn btn-wa wa-link" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><use href="#i-wa"/></svg>Fale no WhatsApp</a>
+  </div>
+</header>
+
+<main>
+<!-- 2. HERO -->
+<section class="hero" id="inicio">
+  <div class="container hero-grid">
+    <div class="reveal">
+      <span class="hero-badge"><span class="stars">★★★★★</span> 5,0 no Google · Sorocaba/SP</span>
+      <h1>Seus direitos protegidos com <em>clareza</em> e quem está ao seu lado.</h1>
+      <p class="lead">Advocacia humana e descomplicada em Sorocaba. Você entende cada passo do seu caso, recebe retorno rápido e conta com uma advogada que se dedica ao máximo para resolver o seu problema.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-wa wa-link" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><use href="#i-wa"/></svg>Falar com a advogada</a>
+        <a class="btn btn-ghost" href="#servicos">Ver serviços</a>
+      </div>
+      <div class="hero-note"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><use href="#i-check"/></svg>Primeiro contato sem compromisso · Atendimento presencial e online</div>
+    </div>
+    <div class="hero-photo reveal d2">
+      <div class="frame">
+        <img src="foto-caroline.webp" alt="Dra. Caroline Raszl, advogada em Sorocaba" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=900&q=80'">
+      </div>
+      <div class="float-card fc-1">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><use href="#i-scale"/></svg></div>
+        <div><b>OAB/SP 412.611</b>Advogada inscrita</div>
+      </div>
+      <div class="float-card fc-2">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><use href="#i-chat"/></svg></div>
+        <div><b>Resposta rápida</b>pelo WhatsApp</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 3. FAIXA DE CONFIANÇA -->
+<section class="trust" aria-label="Números do escritório">
+  <div class="container">
+    <div class="trust-box reveal">
+      <div class="trust-item"><div class="num">5,0</div><div class="stars">★★★★★</div><div class="lbl">Nota no Google</div></div>
+      <div class="trust-item"><div class="num"><span class="count" data-to="7">7</span>+</div><div class="lbl">Anos de experiência</div></div>
+      <div class="trust-item"><div class="num"><span class="count" data-to="500">500</span>+</div><div class="lbl">Clientes atendidos</div></div>
+      <div class="trust-item"><div class="num">100%</div><div class="lbl">Atendimento personalizado</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- 4. SERVIÇOS -->
+<section id="servicos">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Como posso te ajudar</span>
+      <h2>Soluções jurídicas para o que importa na sua vida</h2>
+      <p>Do primeiro contato até a solução, você tem orientação clara, estratégia definida e acompanhamento de perto.</p>
+    </div>
+    <div class="cards">
+      <article class="card reveal">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><use href="#i-chat"/></svg></div>
+        <h3>Consultoria e orientação</h3>
+        <p>Entenda seus direitos antes de tomar qualquer decisão. Uma conversa clara pode evitar prejuízos e dores de cabeça.</p>
+      </article>
+      <article class="card reveal d1">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><use href="#i-gavel"/></svg></div>
+        <h3>Ações judiciais</h3>
+        <p>Representação completa no processo, com estratégia sob medida e atualizações constantes sobre cada andamento.</p>
+      </article>
+      <article class="card reveal d2">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><use href="#i-hands"/></svg></div>
+        <h3>Acordos e mediação</h3>
+        <p>Sempre que possível, buscamos a solução mais rápida e menos desgastante para você — sem abrir mão dos seus direitos.</p>
+      </article>
+      <article class="card reveal">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><use href="#i-doc"/></svg></div>
+        <h3>Contratos e documentos</h3>
+        <p>Elaboração e revisão de contratos, notificações e documentos para você assinar com segurança.</p>
+      </article>
+      <article class="card reveal d1">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><use href="#i-home"/></svg></div>
+        <h3>Inventário e herança</h3>
+        <p>Condução de inventários judiciais e em cartório, com agilidade e cuidado em um momento delicado para a família.</p>
+      </article>
+      <article class="card reveal d2">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><use href="#i-laptop"/></svg></div>
+        <h3>Atendimento online</h3>
+        <p>Não pode vir ao escritório? Resolva tudo pelo WhatsApp e por videochamada, com a mesma atenção do presencial.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 5. ÁREAS DE ATUAÇÃO -->
+<section class="areas" id="areas">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Áreas de atuação</span>
+      <h2>Especialista no Direito do dia a dia</h2>
+      <p>Atuação focada nas questões que mais afetam pessoas e famílias de Sorocaba e região.</p>
+    </div>
+    <div class="areas-grid">
+      <article class="area reveal">
+        <div class="area-img"><img loading="lazy" src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=700&q=75" alt="Direito do Consumidor"></div>
+        <div class="area-body">
+          <h3>Direito do Consumidor</h3>
+          <p>Foi lesado por uma empresa? Você tem direitos — e pode ser indenizado.</p>
+          <ul><li>Produto não entregue</li><li>Cobrança indevida</li><li>Nome sujo</li><li>Voo cancelado</li></ul>
+        </div>
+      </article>
+      <article class="area reveal d1">
+        <div class="area-img"><img loading="lazy" src="https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=700&q=75" alt="Direito de Família"></div>
+        <div class="area-body">
+          <h3>Direito de Família</h3>
+          <p>Condução sensível e respeitosa para proteger você e quem você ama.</p>
+          <ul><li>Divórcio</li><li>Pensão alimentícia</li><li>Guarda</li><li>União estável</li></ul>
+        </div>
+      </article>
+      <article class="area reveal d2">
+        <div class="area-img"><img loading="lazy" src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=700&q=75" alt="Sucessões e Inventário"></div>
+        <div class="area-body">
+          <h3>Sucessões</h3>
+          <p>Partilha de bens organizada, com menos burocracia e menos conflito.</p>
+          <ul><li>Inventário</li><li>Testamento</li><li>Partilha</li><li>Planejamento</li></ul>
+        </div>
+      </article>
+      <article class="area reveal d3">
+        <div class="area-img"><img loading="lazy" src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=700&q=75" alt="Direito Cível"></div>
+        <div class="area-body">
+          <h3>Direito Cível</h3>
+          <p>Defesa firme em conflitos patrimoniais, contratos e indenizações.</p>
+          <ul><li>Indenizações</li><li>Contratos</li><li>Cobranças</li><li>Imóveis</li></ul>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- SOBRE A ADVOGADA -->
+<section class="about" id="sobre">
+  <div class="container about-grid">
+    <div class="about-photo reveal">
+      <div class="frame"><img loading="lazy" src="foto-caroline.webp" alt="Dra. Caroline Raszl" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=900&q=80'"></div>
+      <div class="oab-tag"><small>Inscrição</small><b>OAB/SP 412.611</b></div>
+    </div>
+    <div class="reveal d1">
+      <span class="eyebrow">Sobre a advogada</span>
+      <h2>Dra. Caroline Raszl</h2>
+      <p>Advogada inscrita na OAB/SP sob o nº 412.611, atuante em Sorocaba/SP nas áreas Cível, do Consumidor, de Família e de Sucessões.</p>
+      <p>Acredito que ninguém deveria sair de uma conversa com um advogado com mais dúvidas do que entrou. Por isso, meu trabalho é traduzir o “juridiquês”, mostrar caminhos possíveis e manter você informado do começo ao fim do processo.</p>
+      <blockquote>“Direito descomplicado e acessível.”</blockquote>
+      <ul class="checks">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><use href="#i-check"/></svg>Atualizações frequentes sobre o andamento do seu caso</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><use href="#i-check"/></svg>Linguagem simples, sem termos complicados</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><use href="#i-check"/></svg>Atendimento direto com a advogada, não com intermediários</li>
+      </ul>
+      <a class="btn btn-wa wa-link" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><use href="#i-wa"/></svg>Conversar com a Dra. Caroline</a>
+    </div>
+  </div>
+</section>
+
+<!-- 6. DEPOIMENTOS -->
+<section class="reviews" id="depoimentos">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Avaliações</span>
+      <h2>Quem confiou, recomenda</h2>
+      <p>Avaliações reais de clientes no Google.</p>
+    </div>
+    <div class="g-summary reveal">
+      <svg class="g-logo" viewBox="0 0 48 48"><use href="#i-google"/></svg>
+      <b>5,0</b>
+      <div><span class="stars">★★★★★</span><small>14 avaliações no Google</small></div>
+    </div>
+    <div class="review-grid">
+      <article class="review reveal">
+        <div class="review-top"><div class="avatar" style="background:#5C6BC0">E</div><div><b>Elcio Rosato</b><small>Avaliação no Google</small></div><svg class="g-mini" viewBox="0 0 48 48"><use href="#i-google"/></svg></div>
+        <div class="stars">★★★★★</div>
+        <p>“Excelente profissional!!! Sempre me mantendo informado sobre o processo, me auxiliando o tempo todo. Encontrou alternativas e esclarecendo as dúvidas que eu tinha. Super recomendo!!!”</p>
+      </article>
+      <article class="review reveal d1">
+        <div class="review-top"><div class="avatar" style="background:#B8925A">C</div><div><b>Caroline Assis</b><small>Avaliação no Google</small></div><svg class="g-mini" viewBox="0 0 48 48"><use href="#i-google"/></svg></div>
+        <div class="stars">★★★★★</div>
+        <p>“Profissional excelente, se dedica ao máximo o tempo todo! Eu indico e se eu precisar de novo com certeza vai ser ela!”</p>
+      </article>
+      <article class="review reveal d2">
+        <div class="review-top"><div class="avatar" style="background:#26A69A">T</div><div><b>Tâmera Souza</b><small>Avaliação no Google</small></div><svg class="g-mini" viewBox="0 0 48 48"><use href="#i-google"/></svg></div>
+        <div class="stars">★★★★★</div>
+        <p>“Excelente profissional, super atenciosa e resolveu o meu problema.”</p>
+      </article>
+    </div>
+    <div class="reviews-link reveal"><a href="https://www.google.com/maps/search/?api=1&query=Dra+Caroline+Raszl+Advogados+em+Sorocaba" target="_blank" rel="noopener">Ver todas as avaliações no Google →</a></div>
+  </div>
+</section>
+
+<!-- 7. FAQ -->
+<section id="faq">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Perguntas frequentes</span>
+      <h2>Tire suas dúvidas</h2>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item reveal">
+        <button class="faq-q" aria-expanded="false">Como funciona o primeiro atendimento?<span class="plus">+</span></button>
+        <div class="faq-a"><p>Você chama no WhatsApp, conta rapidamente o que aconteceu e nós agendamos uma conversa — presencial no escritório ou online. Nela, você entende seus direitos, as possibilidades do caso e os próximos passos.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q" aria-expanded="false">Vocês atendem online ou só em Sorocaba?<span class="plus">+</span></button>
+        <div class="faq-a"><p>Os dois. O escritório fica em Sorocaba/SP, mas grande parte do atendimento pode ser feita pelo WhatsApp e por videochamada, inclusive para quem mora em outras cidades da região.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q" aria-expanded="false">Quanto custa contratar a advogada?<span class="plus">+</span></button>
+        <div class="faq-a"><p>Os honorários dependem do tipo e da complexidade do caso e seguem a tabela da OAB/SP. Depois de entender sua situação, você recebe uma proposta clara, sem surpresas. Em alguns casos é possível combinar pagamento parcelado ou vinculado ao resultado.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q" aria-expanded="false">Que documentos preciso levar?<span class="plus">+</span></button>
+        <div class="faq-a"><p>Documento com foto, CPF, comprovante de residência e tudo que tiver relação com o caso: contratos, prints de conversas, notas fiscais, protocolos de atendimento, e-mails. No primeiro contato pelo WhatsApp já orientamos exatamente o que separar.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q" aria-expanded="false">Comprei um produto que não chegou. Tenho direito a indenização?<span class="plus">+</span></button>
+        <div class="faq-a"><p>Pelo Código de Defesa do Consumidor, você pode exigir a entrega, aceitar outro produto equivalente ou receber o dinheiro de volta corrigido. Dependendo do transtorno causado, também pode caber indenização. Cada caso é analisado individualmente.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q" aria-expanded="false">Vou ficar sabendo do andamento do meu processo?<span class="plus">+</span></button>
+        <div class="faq-a"><p>Sim — e esse é um dos pontos que nossos clientes mais elogiam. Você recebe atualizações a cada movimentação importante e pode tirar dúvidas diretamente com a advogada.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 8. LOCALIZAÇÃO -->
+<section id="contato" style="padding-top:0">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Localização</span>
+      <h2>Venha nos visitar em Sorocaba</h2>
+      <p>Atendimento presencial com hora marcada ou online, de onde você estiver.</p>
+    </div>
+    <div class="loc-grid">
+      <div class="map reveal">
+        <iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Mapa — Dra. Caroline Raszl Advogados em Sorocaba"
+          src="https://maps.google.com/maps?q=Dra%20Caroline%20Raszl%20Advogados%20em%20Sorocaba%2FSP&ll=-23.4700726,-47.4366448&z=15&output=embed"></iframe>
+      </div>
+      <div class="info reveal d1">
+        <h3>Dra. Caroline Raszl<br>Advogados</h3>
+        <div class="info-row">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><use href="#i-pin"/></svg></div>
+          <div><small>Endereço</small><b>Sorocaba/SP</b><br><a href="https://www.google.com/maps/search/?api=1&query=Dra+Caroline+Raszl+Advogados+em+Sorocaba" target="_blank" rel="noopener" style="color:var(--gold-soft);font-size:.9rem">Como chegar →</a></div>
+        </div>
+        <div class="info-row">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><use href="#i-clock"/></svg></div>
+          <div><small>Horário</small><b>Segunda a sexta · 9h às 18h</b><br><span style="font-size:.9rem;color:#AEB3C6">Atendimento com hora marcada</span></div>
+        </div>
+        <div class="info-row">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><use href="#i-phone"/></svg></div>
+          <div><small>Telefone / WhatsApp</small><b><a href="tel:+5515998087810">(15) 99808-7810</a></b></div>
+        </div>
+        <a class="btn btn-wa wa-link" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><use href="#i-wa"/></svg>Agendar pelo WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 9. CHAMADA FINAL -->
+<section class="cta">
+  <div class="container">
+    <div class="cta-box reveal">
+      <span class="eyebrow">Não deixe para depois</span>
+      <h2>Seu problema tem solução. Vamos conversar hoje?</h2>
+      <p>Muitos direitos têm prazo para serem cobrados. Fale agora com a Dra. Caroline e descubra o melhor caminho para o seu caso.</p>
+      <a class="btn btn-wa wa-link" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><use href="#i-wa"/></svg>Quero falar no WhatsApp</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- 10. RODAPÉ -->
+<footer>
+  <div class="container">
+    <div class="foot-grid">
+      <div>
+        <div class="logo"><div class="logo-mark">CR</div><div class="logo-text"><strong>Caroline Raszl</strong><span style="color:#AEB3C6">Advocacia · Sorocaba</span></div></div>
+        <p style="margin-top:16px;max-width:300px">Direito descomplicado e acessível. Atendimento humano, próximo e transparente em Sorocaba e região.</p>
+        <div class="socials">
+          <a href="https://www.instagram.com/adv.carolineraszl/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><use href="#i-ig"/></svg></a>
+          <a href="https://www.tiktok.com/@adv.carolineraszl" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24" fill="currentColor"><use href="#i-tt"/></svg></a>
+          <a class="wa-link" href="#" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><use href="#i-wa"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Navegação</h4>
+        <ul><li><a href="#servicos">Serviços</a></li><li><a href="#areas">Áreas de atuação</a></li><li><a href="#sobre">Sobre</a></li><li><a href="#faq">Dúvidas</a></li></ul>
+      </div>
+      <div>
+        <h4>Áreas</h4>
+        <ul><li>Direito do Consumidor</li><li>Direito de Família</li><li>Sucessões e Inventário</li><li>Direito Cível</li></ul>
+      </div>
+      <div>
+        <h4>Contato</h4>
+        <ul><li><a href="tel:+5515998087810">(15) 99808-7810</a></li><li>Sorocaba/SP</li><li>Seg. a sex. · 9h às 18h</li><li>OAB/SP 412.611</li></ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span id="ano"></span> Dra. Caroline Raszl Advogados. Todos os direitos reservados.</span>
+      <span>Site feito pela <a href="https://trionsites.vercel.app" target="_blank" rel="noopener">Trion</a></span>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp flutuante -->
+<a class="wa-float wa-link" href="#" target="_blank" rel="noopener" aria-label="Fale no WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><use href="#i-wa"/></svg></a>
+
+<!-- Ícones -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-wa" viewBox="0 0 24 24"><path d="M17.47 14.38c-.3-.15-1.75-.86-2.02-.96-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.25-.46-2.38-1.47-.88-.79-1.47-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.6-.92-2.2-.24-.58-.49-.5-.67-.5h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.07c.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.75-.72 2-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35M12.05 21.5h-.01a9.4 9.4 0 0 1-4.8-1.32l-.34-.2-3.57.94.95-3.48-.22-.36a9.4 9.4 0 0 1-1.44-5.01c0-5.2 4.24-9.43 9.44-9.43 2.52 0 4.89.98 6.67 2.77a9.37 9.37 0 0 1 2.76 6.67c0 5.2-4.23 9.43-9.44 9.43M20.08 3.9A11.3 11.3 0 0 0 12.05.56C5.8.56.7 5.65.7 11.92c0 2 .52 3.95 1.52 5.67L.6 23.5l6.05-1.59a11.3 11.3 0 0 0 5.4 1.38h.01c6.26 0 11.35-5.1 11.35-11.36 0-3.03-1.18-5.88-3.33-8.03"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-scale" viewBox="0 0 24 24"><path d="M12 3v18M7 21h10M5 7h14M12 3 5 7l-3 7a3 3 0 0 0 6 0L5 7M19 7l-3 7a3 3 0 0 0 6 0l-3-7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20.5l1.4-4.9A8 8 0 1 1 21 12Z" stroke-linejoin="round"/><path d="M8.5 11h7M8.5 14h4.5" stroke-linecap="round"/></symbol>
+  <symbol id="i-gavel" viewBox="0 0 24 24"><path d="m14 13-7.5 7.5a2.1 2.1 0 0 1-3-3L11 10M16 16l6-6M8 8l6-6M9 7l8 8M21 11l-8-8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-hands" viewBox="0 0 24 24"><path d="m11 17 2 2a1 1 0 1 0 3-3M14 14l2.5 2.5a1 1 0 1 0 3-3l-3.9-3.9a3 3 0 0 0-4.2 0l-.9.9a1 1 0 1 1-3-3l2.8-2.8a5.8 5.8 0 0 1 7.1-.9l.5.3a4 4 0 0 0 2.8.5L21 4M21 3l1 11h-2M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3M3 4h8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-doc" viewBox="0 0 24 24"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8l-5-5Z" stroke-linejoin="round"/><path d="M14 3v5h5M9 13h6M9 17h4" stroke-linecap="round"/></symbol>
+  <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1v-9.5Z" stroke-linejoin="round"/></symbol>
+  <symbol id="i-laptop" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="11" rx="2"/><path d="M2 19h20" stroke-linecap="round"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2" stroke-linecap="round"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2Z" stroke-linejoin="round"/></symbol>
+  <symbol id="i-ig" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".6" fill="currentColor"/></symbol>
+  <symbol id="i-tt" viewBox="0 0 24 24"><path d="M16.6 5.8A4.3 4.3 0 0 1 15.5 3h-3.1v12.4a2.6 2.6 0 1 1-2.6-2.6c.3 0 .5 0 .8.1V9.7a5.7 5.7 0 1 0 4.9 5.7V9.1a7.4 7.4 0 0 0 4.3 1.4V7.4a4.3 4.3 0 0 1-3.2-1.6Z"/></symbol>
+  <symbol id="i-google" viewBox="0 0 48 48"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 7.9 3l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.4-.4-3.5z"/><path fill="#FF3D00" d="m6.3 14.7 6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 7.9 3l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2A11.9 11.9 0 0 1 24 36c-5.2 0-9.6-3.3-11.3-8l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3a12 12 0 0 1-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.4-.4-3.5z"/></symbol>
+</svg>
+
+<script>
+// Link do WhatsApp (troque o número aqui se precisar)
+const WA = 'https://wa.me/5515998087810?text=' + encodeURIComponent('Olá! Vim pelo site e gostaria de mais informações.');
+document.querySelectorAll('.wa-link').forEach(a => a.href = WA);
+document.getElementById('ano').textContent = new Date().getFullYear();
+
+// Topo ao rolar
+const header = document.getElementById('top');
+const onScroll = () => header.classList.toggle('scrolled', window.scrollY > 10);
+onScroll(); window.addEventListener('scroll', onScroll, {passive:true});
+
+// Menu mobile
+const burger = document.querySelector('.burger');
+burger.addEventListener('click', () => {
+  const open = document.body.classList.toggle('menu-open');
+  burger.setAttribute('aria-expanded', open);
+  if (open) header.classList.add('scrolled'); else onScroll();
+});
+document.querySelectorAll('.mobile-menu a').forEach(a => a.addEventListener('click', () => {
+  document.body.classList.remove('menu-open'); burger.setAttribute('aria-expanded', false);
+}));
+
+// FAQ (accordion)
+document.querySelectorAll('.faq-q').forEach(q => q.addEventListener('click', () => {
+  const item = q.parentElement, ans = item.querySelector('.faq-a'), isOpen = item.classList.contains('open');
+  document.querySelectorAll('.faq-item.open').forEach(o => { o.classList.remove('open'); o.querySelector('.faq-a').style.maxHeight = 0; o.querySelector('.faq-q').setAttribute('aria-expanded', false); });
+  if (!isOpen) { item.classList.add('open'); ans.style.maxHeight = ans.scrollHeight + 'px'; q.setAttribute('aria-expanded', true); }
+}));
+
+// Animações ao rolar + contadores
+const countUp = el => {
+  const to = +el.dataset.to, dur = 1400, t0 = performance.now();
+  const step = t => { const p = Math.min((t - t0) / dur, 1); el.textContent = Math.round(to * (1 - Math.pow(1 - p, 3))); if (p < 1) requestAnimationFrame(step); };
+  requestAnimationFrame(step);
+};
+const io = new IntersectionObserver(entries => entries.forEach(e => {
+  if (!e.isIntersecting) return;
+  e.target.classList.add('in');
+  e.target.querySelectorAll('.count').forEach(countUp);
+  io.unobserve(e.target);
+}), {threshold:.15, rootMargin:'0px 0px -40px 0px'});
+document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+</body>
+</html>
